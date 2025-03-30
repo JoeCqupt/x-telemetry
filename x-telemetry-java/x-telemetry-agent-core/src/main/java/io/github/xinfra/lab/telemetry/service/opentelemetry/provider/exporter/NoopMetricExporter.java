@@ -8,28 +8,28 @@ import io.opentelemetry.sdk.metrics.export.MetricExporter;
 
 import java.util.Collection;
 
-public class NoopMetricExporter implements MetricExporter {
+public interface NoopMetricExporter extends MetricExporter {
 
-	public static final MetricExporter NOOP = new NoopMetricExporter();
+	NoopMetricExporter NOOP = new NoopMetricExporter() {
+		@Override
+		public CompletableResultCode export(Collection<MetricData> metrics) {
+			return null;
+		}
 
-	@Override
-	public CompletableResultCode export(Collection<MetricData> metrics) {
-		return null;
-	}
+		@Override
+		public CompletableResultCode flush() {
+			return null;
+		}
 
-	@Override
-	public CompletableResultCode flush() {
-		return null;
-	}
+		@Override
+		public CompletableResultCode shutdown() {
+			return null;
+		}
 
-	@Override
-	public CompletableResultCode shutdown() {
-		return null;
-	}
-
-	@Override
-	public AggregationTemporality getAggregationTemporality(InstrumentType instrumentType) {
-		return null;
-	}
+		@Override
+		public AggregationTemporality getAggregationTemporality(InstrumentType instrumentType) {
+			return null;
+		}
+	};
 
 }

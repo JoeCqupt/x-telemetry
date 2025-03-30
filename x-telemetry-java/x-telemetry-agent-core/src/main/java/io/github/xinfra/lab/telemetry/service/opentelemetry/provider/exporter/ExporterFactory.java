@@ -1,13 +1,13 @@
 package io.github.xinfra.lab.telemetry.service.opentelemetry.provider.exporter;
 
-import io.github.xinfra.lab.telemetry.config.LoggerProviderConfig;
-import io.github.xinfra.lab.telemetry.config.MeterProviderConfig;
-import io.github.xinfra.lab.telemetry.config.TracerProviderConfig;
-import io.github.xinfra.lab.telemetry.service.opentelemetry.provider.LoggerProviderType;
-import io.github.xinfra.lab.telemetry.service.opentelemetry.provider.MeterProviderType;
-import io.github.xinfra.lab.telemetry.service.opentelemetry.provider.TracerProviderType;
-import io.github.xinfra.lab.telemetry.service.opentelemetry.provider.config.OtlpConfig;
-import io.github.xinfra.lab.telemetry.service.opentelemetry.provider.config.ZipkinConfig;
+import io.github.xinfra.lab.telemetry.config.definition.LoggerProviderConfig;
+import io.github.xinfra.lab.telemetry.config.definition.MeterProviderConfig;
+import io.github.xinfra.lab.telemetry.config.definition.TracerProviderConfig;
+import io.github.xinfra.lab.telemetry.config.definition.LoggerProviderType;
+import io.github.xinfra.lab.telemetry.config.definition.MeterProviderType;
+import io.github.xinfra.lab.telemetry.config.definition.TracerProviderType;
+import io.github.xinfra.lab.telemetry.config.definition.OtlpConfig;
+import io.github.xinfra.lab.telemetry.config.definition.ZipkinConfig;
 import io.opentelemetry.exporter.otlp.logs.OtlpGrpcLogRecordExporter;
 import io.opentelemetry.exporter.zipkin.ZipkinSpanExporter;
 import io.opentelemetry.sdk.logs.export.LogRecordExporter;

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.x-infra-lab</groupId>
-        <artifactId>x-telemetry</artifactId>
+        <artifactId>x-telemetry-java</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

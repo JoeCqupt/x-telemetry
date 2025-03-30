@@ -1,4 +1,4 @@
-package io.github.xinfra.lab.telemetry.config;
+package io.github.xinfra.lab.telemetry.config.definition;
 
 import io.github.xinfra.lab.telemetry.AgentPath;
 import lombok.Data;

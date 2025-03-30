@@ -1,8 +1,8 @@
 package io.github.xinfra.lab.telemetry.service.opentelemetry;
 
-import io.github.xinfra.lab.telemetry.config.LoggerProviderConfig;
-import io.github.xinfra.lab.telemetry.config.MeterProviderConfig;
-import io.github.xinfra.lab.telemetry.config.TracerProviderConfig;
+import io.github.xinfra.lab.telemetry.config.definition.LoggerProviderConfig;
+import io.github.xinfra.lab.telemetry.config.definition.MeterProviderConfig;
+import io.github.xinfra.lab.telemetry.config.definition.TracerProviderConfig;
 import io.github.xinfra.lab.telemetry.service.opentelemetry.provider.log.processor.LogRecordProcessorFactory;
 import io.github.xinfra.lab.telemetry.service.opentelemetry.provider.meter.reader.MeterReaderFactory;
 import io.github.xinfra.lab.telemetry.service.opentelemetry.provider.trace.processor.SpanProcessorFactory;

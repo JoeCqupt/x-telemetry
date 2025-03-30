@@ -1,6 +1,6 @@
 package io.github.xinfra.lab.telemetry.logger;
 
-import io.github.xinfra.lab.telemetry.config.AgentLogConfig;
+import io.github.xinfra.lab.telemetry.config.definition.AgentLogConfig;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;

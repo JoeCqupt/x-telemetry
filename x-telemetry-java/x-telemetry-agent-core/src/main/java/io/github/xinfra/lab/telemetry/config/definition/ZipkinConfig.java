@@ -1,4 +1,4 @@
-package io.github.xinfra.lab.telemetry.service.opentelemetry.provider.config;
+package io.github.xinfra.lab.telemetry.config.definition;
 
 import io.opentelemetry.exporter.zipkin.ZipkinSpanExporter;
 import lombok.Data;
